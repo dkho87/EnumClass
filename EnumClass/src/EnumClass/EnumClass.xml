@@ -17,6 +17,11 @@ iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
 				<attributeType name="Enum"/> 
 			</attributeTypes>
        </property>
+	   <property key="showLabel" type="boolean" required="true" defaultValue="false">
+			<caption>Print selection</caption>
+			<category>Appearance</category>
+			<description>Whether or not the selected enum value should be displayed on screen as span element</description> 
+       </property>
        <property key="enumvalues" type="object" isList="true" required="false">
 			<caption>Values</caption>
 			<category>Data source</category>

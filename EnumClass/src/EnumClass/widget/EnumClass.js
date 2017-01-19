@@ -40,6 +40,9 @@ define([
       }
 
       this.element = domConstruct.create("span");
+      if (!this.showLabel) {
+        domAttr.set(this.element, "style",  "display:none;");
+      }
       this.domNode.appendChild(this.element);
 
       switch (this.applyToEnum) { //Select the right element to apply the class too
